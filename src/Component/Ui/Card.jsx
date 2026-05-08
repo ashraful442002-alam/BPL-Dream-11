@@ -1,21 +1,11 @@
 import React from 'react';
-import { FaUser } from "react-icons/fa";
-import { FaFlag } from "react-icons/fa";
+import { FaUser, FaFlag } from "react-icons/fa";
 import { GiCricketBat } from "react-icons/gi";
 import { BiSolidCricketBall } from "react-icons/bi";
 
-const AvailablePlayer = ({ players }) => {
-
+const Card = ({ player }) => {
     return (
-        <div className='grid gap-6 
-                        grid-cols-1 
-                        sm:grid-cols-2 
-                        lg:grid-cols-3 
-                        p-4'>
-
-            {
-                players.map(player => (
-                    <div
+        <div
 
                         className="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 rounded-xl"
                     >
@@ -79,11 +69,7 @@ const AvailablePlayer = ({ players }) => {
 
                         </div>
                     </div>
-                ))
-            }
-
-        </div>
     );
 };
 
-export default AvailablePlayer;
+export default Card;
