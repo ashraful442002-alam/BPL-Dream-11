@@ -31,7 +31,7 @@ const Banner = () => {
                         Beyond Boundaries Beyond Limits
                     </p>
 
-                    <button className="btn btn-primary mt-6 bg-[#E7FE29] text-black font-bold border-none rounded-xl text-center">
+                    <button className="btn btn-primary mt-6 bg-[#E7FE29]text-black  font-bold border-none rounded-xl text-center">
                         Claim Free Credit
                     </button>
 
