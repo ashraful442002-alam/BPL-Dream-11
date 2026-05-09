@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../../../Ui/Card';
 
-const AvailablePlayer = ({ players }) => {
+const AvailablePlayer = ({ players,setCoins , coins }) => {
 
     return (
         <div className='grid gap-6 
@@ -13,7 +13,7 @@ const AvailablePlayer = ({ players }) => {
             {
                 players.map(player => (
 
-                    <Card player={player}></Card>
+                    <Card player={player} setCoins={setCoins} coins={coins}></Card>
                     
                 ))
             }

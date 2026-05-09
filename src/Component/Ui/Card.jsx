@@ -2,8 +2,29 @@ import React from 'react';
 import { FaUser, FaFlag } from "react-icons/fa";
 import { GiCricketBat } from "react-icons/gi";
 import { BiSolidCricketBall } from "react-icons/bi";
+import SelectedPlayers from '../Homepage/Players/SelectedPlayers/SelectedPlayers';
 
-const Card = ({ player }) => {
+const Card = ({ player,setCoins , coins}) => {
+
+
+    const [isSelected, setIsSelected] = React.useState(false);
+
+    
+    const handlePlayer = () => {
+
+
+        let newCoin = coins - player.price;
+        if(newCoin >= 0){
+            setCoins(coins - player.price);
+        }
+        else{
+            alert("You don't have enough coins to select this player.");
+            return;
+        }
+        alert(` ${player.playerName} is selected.`);
+        setIsSelected(true); setCoins(coins - player.price);
+
+    }
     return (
         <div
 
@@ -59,11 +80,11 @@ const Card = ({ player }) => {
 
                             <div className="flex justify-between items-center pt-2">
                                 <p className="font-bold text-lg text-green-600">
-                                    {player.price}
+                                    ${player.price}
                                 </p>
 
-                                <button className="btn btn-primary btn-sm">
-                                    Buy
+                                <button onClick={handlePlayer} disabled={isSelected?true:false} className="btn  btn-primary btn-sm">
+                                    {isSelected?"Selected":"Buy"}
                                 </button>
                             </div>
 
