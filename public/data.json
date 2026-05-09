@@ -7,7 +7,7 @@
     "price": 50000,
     "bowlingstyle": "Right-arm medium",
     "battingstyle": "Right-hand bat",
-    "playerimag": ".public/image/Virat.jpg"
+    "playerimag": "/image/1.jpg"
   },
   {
     "playerName": "Ben Stokes",
@@ -17,7 +17,7 @@
     "price": 48000,
     "bowlingstyle": "Left-arm fast-medium",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/Xr2WdDNC/Ben.jpg"
+    "playerimag": "/image/2.jpg"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -27,7 +27,7 @@
     "price": 49000,
     "bowlingstyle": "Left-arm orthodox",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/tTdN3VnQ/Shakib.jpg"
+    "playerimag": "/image/3.jpg"
   },
   {
     "playerName": "Rashid Khan",
@@ -37,7 +37,7 @@
     "price": 47000,
     "bowlingstyle": "Right-arm legbreak",
     "battingstyle": "Right-hand bat",
-    "playerimag": "https://i.ibb.co/67LNCkLZ/Rashid.jpg"
+    "playerimag": "/image/4.jpg"
   },
   {
     "playerName": "Kane Williamson",
@@ -47,7 +47,7 @@
     "price": 45000,
     "bowlingstyle": "Right-arm offbreak",
     "battingstyle": "Right-hand bat",
-    "playerimag": "https://i.ibb.co/vCnYyXzK/Kane.jpg"
+    "playerimag": "/image/5.jpg"
   },
   {
     "playerName": "Jos Buttler",
@@ -57,7 +57,7 @@
     "price": 42000,
     "bowlingstyle": "None",
     "battingstyle": "Right-hand bat",
-    "playerimag": "https://i.ibb.co/x8X4HvbV/butller.jpg"
+    "playerimag": "/image/6.jpg"
   },
   {
     "playerName": "Shaheen Afridi",
@@ -67,7 +67,7 @@
     "price": 46000,
     "bowlingstyle": "Left-arm fast",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/8DzSws4n/Afridi.jpg"
+    "playerimag": "/image/7.jpg"
   },
   {
     "playerName": "David Warner",
@@ -77,7 +77,7 @@
     "price": 40000,
     "bowlingstyle": "Legbreak",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/VWjxGzw7/Warner.jpg"
+    "playerimag": "/image/8.jpg"
   },
   {
     "playerName": "Glenn Maxwell",
@@ -87,7 +87,7 @@
     "price": 44000,
     "bowlingstyle": "Right-arm offbreak",
     "battingstyle": "Right-hand bat",
-    "playerimag": "https://i.ibb.co/6cw2SyHq/Glenn-Maxwell-thumbnail.jpg"
+    "playerimag": "/image/9.jpg"
   },
   {
     "playerName": "Trent Boult",
@@ -97,7 +97,7 @@
     "price": 41000,
     "bowlingstyle": "Left-arm fast-medium",
     "battingstyle": "Right-hand bat",
-    "playerimag": "https://i.ibb.co/SwVytz3T/Boult.jpg"
+    "playerimag": "/image/10.jpg"
   },
   
   {
@@ -108,7 +108,7 @@
     "price": 38000,
     "bowlingstyle": "None",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/bjV8tHCw/Kock.jpg"
+    "playerimag": "/image/11.jpg"
   },
   {
     "playerName": "Mitchell Starc",
@@ -118,6 +118,6 @@
     "price": 43000,
     "bowlingstyle": "Left-arm fast",
     "battingstyle": "Left-hand bat",
-    "playerimag": "https://i.ibb.co/bRGrkNdB/Starck.jpg"
+    "playerimag": "/image/12.jpg"
   }
 ]
